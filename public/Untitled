@@ -1,0 +1,139 @@
+import { ArrowRight } from 'lucide-react';
+const visaIcon = 'https://www.shylajatours.com/assets/theme/30/img/about-icon1.webp';
+const agentsIcon = 'https://www.shylajatours.com/assets/theme/30/img/about-icon2.webp';
+export const TravelAbout = () => {
+  return <main className="travel-about">
+      <style>{`
+        .travel-about {
+          --ink: #093d49;
+          --copy: #666666;
+          --line: #e7e7e7;
+          --blue: #148cd4;
+          box-sizing: border-box;
+          width: 100%;
+          min-height: 100%;
+          padding: 84px 32px 88px;
+          background: #ffffff;
+          color: var(--ink);
+          font-family: 'Jost', 'Inter', sans-serif;
+        }
+        .travel-about *, .travel-about *::before, .travel-about *::after { box-sizing: border-box; }
+        .travel-about__content {
+          width: min(100%, 530px);
+          margin: 0 auto;
+        }
+        .travel-about h1 {
+          max-width: 510px;
+          margin: 0;
+          color: var(--ink);
+          font-size: clamp(36px, 4vw, 45px);
+          font-weight: 400;
+          line-height: 1.12;
+          letter-spacing: -1.2px;
+          overflow-wrap: break-word;
+        }
+        .travel-about h1 strong { font-weight: 900; }
+        .travel-about__details { margin-top: 22px; }
+        .travel-about p {
+          margin: 0;
+          color: var(--copy);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.75;
+          overflow-wrap: break-word;
+        }
+        .travel-about__features {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin: 48px 0 49px;
+          border-bottom: 1px solid var(--line);
+        }
+        .travel-about__feature {
+          min-width: 0;
+          padding: 0 25px 25px 0;
+        }
+        .travel-about__feature + .travel-about__feature {
+          padding: 0 0 25px 25px;
+          border-left: 2px solid var(--line);
+        }
+        .travel-about__icon-title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          min-height: 65px;
+          margin-bottom: 10px;
+        }
+        .travel-about__icon {
+          display: block;
+          flex: 0 0 65px;
+          width: 65px;
+          height: 65px;
+          object-fit: contain;
+        }
+        .travel-about__feature h2 {
+          margin: 0;
+          color: #222222;
+          font-size: 19px;
+          font-weight: 600;
+          line-height: 1.15;
+          overflow-wrap: break-word;
+        }
+        .travel-about__feature p { font-size: 15px; line-height: 1.72; }
+        .travel-about__link {
+          display: inline-flex;
+          align-items: center;
+          gap: 13px;
+          min-height: 48px;
+          padding: 14px 24px;
+          border-radius: 999px;
+          background: var(--blue);
+          color: #ffffff;
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 18px;
+          text-decoration: none;
+          transition: background-color 180ms ease, transform 180ms ease;
+        }
+        .travel-about__link:hover { background: #0b74b4; transform: translateY(-2px); }
+        .travel-about__link:focus-visible { outline: 3px solid #8bd0f5; outline-offset: 4px; }
+        .travel-about__link svg { width: 18px; height: 18px; stroke-width: 1.8; }
+        @media (max-width: 600px) {
+          .travel-about { padding: 52px 22px 60px; }
+          .travel-about h1 { letter-spacing: -0.8px; }
+          .travel-about__features { grid-template-columns: 1fr; gap: 26px; margin-top: 37px; }
+          .travel-about__feature, .travel-about__feature + .travel-about__feature { padding: 0 0 26px; }
+          .travel-about__feature + .travel-about__feature { border-top: 1px solid var(--line); border-left: 0; padding-top: 26px; }
+        }
+      `}</style>
+      <section className="travel-about__content" aria-labelledby="travel-about-title">
+        <h1 id="travel-about-title">
+          Experience the World with <strong>Our Company</strong>
+        </h1>
+        <div className="travel-about__details">
+          <p>
+            Shylaja Tours and Travels offers budget-friendly vacation packages to India, featuring some of the most captivating destinations. Journey through the majestic trails of the Himalayas and discover spiritual serenity in the northern monasteries.
+          </p>
+          <div className="travel-about__features">
+            <article className="travel-about__feature">
+              <div className="travel-about__icon-title">
+                <img className="travel-about__icon" src={visaIcon} alt="Visa approval illustration" />
+                <h2>Visa Get In 2 Days</h2>
+              </div>
+              <p>Get your visa approved in just 2 days—fast, easy, and hassle-free!</p>
+            </article>
+            <article className="travel-about__feature">
+              <div className="travel-about__icon-title">
+                <img className="travel-about__icon" src={agentsIcon} alt="Travel agent illustration" />
+                <h2>Best Travel Agents</h2>
+              </div>
+              <p>Best agents for hassle-free bookings and unforgettable journeys.</p>
+            </article>
+          </div>
+          <a className="travel-about__link" href="" aria-label="Explore more about our company">
+            <span>Explore More</span>
+            <ArrowRight aria-hidden="true" />
+          </a>
+        </div>
+      </section>
+    </main>;
+};

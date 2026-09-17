@@ -1,0 +1,75 @@
+/**
+ * CEO Travels — West Godavari semantic design tokens
+ * Source: travelnexy.com brand extraction (CEO Travels implementation)
+ */
+
+:root {
+  /* Typography */
+  --font-family-primary: var(--font-manrope), Manrope, sans-serif;
+  --font-size-xs: 14px;
+  --font-size-sm: 15px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 25px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 48px;
+  --font-weight-base: 600;
+  --line-height-base: 1.42;
+
+  /* Color — text */
+  --color-text-primary: #113d48;
+  --color-text-secondary: #6e7070;
+  --color-text-tertiary: #0d0d0c;
+  --color-text-inverse: #ffffff;
+
+  /* Color — surface */
+  --color-surface-base: #000000;
+  --color-surface-raised: #eb6326;
+  --color-surface-strong: #6d358a;
+  --color-surface-muted: #f5f6f6;
+  --color-surface-card: #ffffff;
+
+  /* Color — border & focus */
+  --color-border-default: #e2e4e4;
+  --color-border-strong: #113d48;
+  --color-focus-ring: #6d358a;
+
+  /* Spacing */
+  --space-1: 2px;
+  --space-2: 5px;
+  --space-3: 7px;
+  --space-4: 8px;
+  --space-5: 9.5px;
+  --space-6: 10px;
+  --space-7: 11.5px;
+  --space-8: 12px;
+  --space-9: 16px;
+  --space-10: 24px;
+  --space-11: 32px;
+  --space-12: 48px;
+
+  /* Radius */
+  --radius-xs: 10px;
+  --radius-sm: 48px;
+  --radius-md: 50px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --motion-instant: 200ms;
+  --motion-fast: 300ms;
+  --motion-normal: 400ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Legacy aliases (map to semantic tokens for existing components) */
+  --navy: var(--color-text-primary);
+  --navy-2: #0e3340;
+  --gold: var(--color-surface-raised);
+  --gold-2: #f59a63;
+  --cream: var(--color-surface-muted);
+  --ink: var(--color-text-primary);
+  --background: var(--color-surface-card);
+  --foreground: var(--color-text-primary);
+  --border: var(--color-border-default);
+  --muted-foreground: var(--color-text-secondary);
+}
