@@ -41,8 +41,9 @@ export default function ServicesGrid() {
           </h2>
           <p className="mt-5 text-sm sm:text-base text-secondary leading-7">
             As a trusted travel partner from {site.address.split(",")[0]}, CEO
-            Travels offers passport, visa, medical, and ticket services with
-            reliable support — {site.hours.toLowerCase()}.
+            Travels offers passport, visa, tickets, car rental, PAN card,
+            electricity bills, and mobile recharges with reliable support —{" "}
+            {site.hours.toLowerCase()}.
           </p>
         </div>
 

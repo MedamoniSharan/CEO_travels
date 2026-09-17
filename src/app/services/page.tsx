@@ -6,20 +6,24 @@ import EnquiryForm from "@/components/EnquiryForm";
 import { serviceWhatsapp, services, site } from "@/lib/site";
 import {
   Bus,
+  Car,
+  CreditCard,
   FileText,
   Globe,
   IdCard,
   Plane,
+  Smartphone,
   Stethoscope,
   Stamp,
   Train,
+  Zap,
   type LucideIcon,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Passport slots, PCC, GCC medical, visa stamping, immigration, and flight, bus, and train tickets — all from CEO Travels, West Godavari.",
+    "Passport slots, PCC, GCC medical, visa stamping, immigration, tickets, car rental, PAN card, electricity bills, and mobile recharges — all from CEO Travels, West Godavari.",
 };
 
 const serviceIcons: Record<string, LucideIcon> = {
@@ -31,6 +35,10 @@ const serviceIcons: Record<string, LucideIcon> = {
   "flight-tickets": Plane,
   "bus-tickets": Bus,
   "train-tickets": Train,
+  "car-rental": Car,
+  "pan-card": CreditCard,
+  "electricity-bill": Zap,
+  "mobile-recharges": Smartphone,
 };
 
 export default function ServicesPage() {
@@ -50,7 +58,7 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="mt-3 text-secondary">
-            Documentation, medicals, and tickets under one roof — {site.hours}
+            Travel, documentation, car rental, and online bill payments under one roof — {site.hours}
           </p>
         </div>
       </section>

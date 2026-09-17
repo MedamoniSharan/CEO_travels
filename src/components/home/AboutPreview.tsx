@@ -15,9 +15,9 @@ export default function AboutPreview() {
             CEO Travels is a trusted booking desk for journeys that matter.
           </h2>
           <p className="mt-5 text-white/75 leading-7">
-            From West Godavari we handle passport slots, PCC, GCC medical, visa
-            stamping, immigration, and tickets around the clock. Fast
-            coordination, honest fares, and people who pick up the phone.
+            From West Godavari we handle passport slots, tickets, car rental,
+            PAN card, electricity bills, and mobile recharges around the clock.
+            Fast coordination, honest fares, and people who pick up the phone.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <div className="rounded-2xl border border-gold/30 px-5 py-4">

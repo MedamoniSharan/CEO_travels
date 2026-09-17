@@ -9,14 +9,11 @@ export default function Footer() {
         <div>
           <Image
             src="/logo.png"
-            alt="CEO Travels"
-            width={340}
-            height={186}
-            className="h-32 sm:h-36 w-auto object-contain mb-4"
+            alt="CEO Travels — Your Journey Our Responsibility"
+            width={854}
+            height={489}
+            className="h-36 sm:h-40 w-auto object-contain mb-4"
           />
-          <p className="text-accent text-sm tracking-[0.28em] uppercase font-semibold">
-            {site.tagline}
-          </p>
           <p className="mt-4 text-secondary text-sm leading-7">
             Passport slots, PCC, GCC medical, visa stamping, immigration, and
             tickets — available 24 hours a day from West Godavari.

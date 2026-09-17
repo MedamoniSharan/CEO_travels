@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "CEO Travels — passport slots, PCC, GCC medical, visa stamping, immigration, flight, bus and train tickets. 24/7 service in West Godavari.",
+    "CEO Travels — passport slots, visas, tickets, car rental, PAN card, electricity bills, and mobile recharges. 24/7 service in West Godavari.",
   keywords: [
     "CEO Travels",
     "West Godavari travel agency",
@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     "GCC medical",
     "holiday packages",
     "flight tickets",
+    "car rental",
+    "PAN card",
+    "electricity bill payment",
+    "mobile recharge",
   ],
   icons: {
     icon: "/logo.png",
@@ -42,7 +46,7 @@ export const metadata: Metadata = {
     title: `${site.name} | Flights, Visa, Passport & Tickets`,
     description:
       "Passport slots, PCC, GCC medical, visa stamping, immigration, and tickets — 24/7 from West Godavari.",
-    images: [{ url: "/logo.png", width: 512, height: 280, alt: site.name }],
+    images: [{ url: "/logo.png", width: 854, height: 489, alt: site.name }],
   },
   twitter: {
     card: "summary",

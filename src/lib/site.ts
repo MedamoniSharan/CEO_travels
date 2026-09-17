@@ -89,6 +89,34 @@ export const services = [
     description:
       "We help you find trains, berths, and confirming tickets for family and group travel across India.",
   },
+  {
+    slug: "car-rental",
+    title: "Car Rental",
+    short: "Self-drive and chauffeur cars",
+    description:
+      "Book a car for airport drops, outstation trips, or local travel — with flexible duration and 24/7 support from West Godavari.",
+  },
+  {
+    slug: "pan-card",
+    title: "PAN Card",
+    short: "New PAN and updates online",
+    description:
+      "Apply for a new PAN card or update name, address, and other details without standing in queues.",
+  },
+  {
+    slug: "electricity-bill",
+    title: "Electricity Bill",
+    short: "Pay power bills instantly",
+    description:
+      "Pay electricity bills quickly and get confirmation on WhatsApp — handy for home, shop, and family accounts.",
+  },
+  {
+    slug: "mobile-recharges",
+    title: "Mobile Recharges",
+    short: "Prepaid recharges for all networks",
+    description:
+      "Recharge any prepaid mobile number on the spot. Tell us the number and plan — we handle the rest.",
+  },
 ];
 
 export const offers = [

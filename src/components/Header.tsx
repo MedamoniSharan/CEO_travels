@@ -34,7 +34,17 @@ const mega = [
       { href: "/services#flight-tickets", label: "Flight Tickets" },
       { href: "/services#bus-tickets", label: "Bus Tickets" },
       { href: "/services#train-tickets", label: "Train Tickets" },
+      { href: "/services#car-rental", label: "Car Rental" },
       { href: "/services#gcc-medical", label: "GCC Medical" },
+    ],
+  },
+  {
+    label: "Online Services",
+    href: "/services#pan-card",
+    items: [
+      { href: "/services#pan-card", label: "PAN Card" },
+      { href: "/services#electricity-bill", label: "Electricity Bill" },
+      { href: "/services#mobile-recharges", label: "Mobile Recharges" },
     ],
   },
 ];
@@ -67,10 +77,10 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
             src="/logo.png"
-            alt="CEO Travels"
-            width={280}
-            height={153}
-            className="h-[4.5rem] sm:h-20 w-auto object-contain"
+            alt="CEO Travels — Your Journey Our Responsibility"
+            width={854}
+            height={489}
+            className="h-20 sm:h-24 w-auto object-contain"
             priority
           />
         </Link>

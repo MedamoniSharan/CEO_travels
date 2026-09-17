@@ -1,20 +1,10 @@
 "use client";
 
 import { FormEvent } from "react";
-import { site } from "@/lib/site";
+import { services, site } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 
-const serviceOptions = [
-  "Holiday Packages",
-  "Passport Slots",
-  "PCC Slots",
-  "GCC Medical",
-  "Visa Stamping",
-  "Immigration",
-  "Flight Tickets",
-  "Bus Tickets",
-  "Train Tickets",
-];
+const serviceOptions = ["Holiday Packages", ...services.map((s) => s.title)];
 
 export default function Enquiry({ compact = false }: { compact?: boolean }) {
   const submit = (e: FormEvent<HTMLFormElement>) => {

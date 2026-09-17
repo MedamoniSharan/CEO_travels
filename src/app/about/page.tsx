@@ -32,8 +32,8 @@ export default function AboutPage() {
           <Image
             src="/logo.png"
             alt="CEO Travels logo"
-            width={640}
-            height={350}
+            width={854}
+            height={489}
             className="w-full object-contain"
           />
         </Reveal>
@@ -45,8 +45,9 @@ export default function AboutPage() {
           <p className="mt-5 text-ink/75 leading-8">
             CEO Travels helps families, students, and working professionals
             move with confidence. We specialise in passport slots, PCC slots,
-            GCC medicals, visa stamping, immigration support, and everyday
-            tickets for flights, buses, and trains.
+            GCC medicals, visa stamping, immigration support, everyday tickets,
+            car rental, and online services such as PAN card, electricity bills,
+            and mobile recharges.
           </p>
           <p className="mt-4 text-ink/75 leading-8">
             From first enquiry to final boarding pass, our team stays with you.

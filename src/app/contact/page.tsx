@@ -7,7 +7,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact CEO Travels in West Godavari — call, WhatsApp, or email for passport slots, visas, tickets, and holiday packages. Open 24/7.",
+    "Contact CEO Travels in West Godavari — call, WhatsApp, or email for tickets, car rental, PAN card, bills, and holiday packages. Open 24/7.",
 };
 
 const contacts = [
